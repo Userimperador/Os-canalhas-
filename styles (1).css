@@ -1,0 +1,78 @@
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%); /* Gradiente de verdes */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Navegação */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Botão CTA */
+.cta-button {
+    display: block;
+    width: fit-content;
+    margin: 1rem auto;
+    background-color: #2196F3; /* Azul vibrante */
+    color: #fff;
+    padding: 1rem 2rem;
+    border: 2px solid #1976D2; /* Azul mais escuro */
+    border-radius: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(33, 150, 243, 0.2);
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #1976D2;
+    transform: scale(1.05);
+}
+
+.cta-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(33, 150, 243, 0.2);
+}
+
+/* Seções */
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
