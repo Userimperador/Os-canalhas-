@@ -1,52 +1,86 @@
-
 <!doctype html>
-<html lang="pt-BR"> 
- <head> 
-  <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>O᥉ Cᥲᥒᥲᥣhᥲ᥉</title> 
-  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"> 
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&amp;display=swap" rel="stylesheet"> <!-- Fonte Oswald --> 
-  <link rel="stylesheet" href="css/styles.css"> <!-- Link para o CSS externo --> 
- </head> 
- <body> 
-  <header> 
-   <h1>Os Canalhas🏴‍☠️</h1> 
-   <nav> 
-    <ul> 
-     <li><a href="#inicio">Início</a></li> 
-     <li><a href="#essencia">Nossa Essência</a></li> 
-     <li><a href="#historia">Nossa História</a></li> 
-     <li><a href="#contato">Contato</a></li> 
-    </ul> 
-   </nav> 
-  </header> 
-  <main class="container"> 
-   <section id="inicio"> 
-    <h2>Bem-vindo à Família Canalhas</h2> 
-    <p>Mais do que um grupo, somos uma verdadeira irmandade. Nossa essência está na união, na força e na amizade que cada membro traz para o grupo.</p> <button id="joinDiscord" class="cta-button">Junte-se ao Discord</button> 
-   </section> 
-   <section id="essencia"> 
-    <h2>Nossa Essência</h2> 
-    <p>Os Canalhas são mais do que um grupo de amigos; somos uma família construída na base da irmandade. Respeito, amizade e proteção mútua são nossos pilares.</p> 
-   </section> 
-   <section id="historia"> 
-    <h2>Nossa História</h2> 
-    <p> Tudo começou com um carioca que, em busca de diversão, resolveu explorar o mundo do Discord. Ao se deparar com caos e absurdos, ele decidiu criar um espaço seguro para seus amigos. Foi então que a Família Canalhas nasceu, unindo pessoas de diferentes lugares e criando laços verdadeiros. </p> 
-    <p> Com o tempo, um sergipano entrou na jogada, trazendo novas ideias e muito entusiasmo. Juntos, eles começaram a reunir amigos e aliados, combatendo os desafios e criando um ambiente acolhedor e cheio de energia. </p> 
-    <p> Hoje, a Família Canalhas é mais do que um servidor. É um lar para quem busca amizade, respeito e diversão. Cada membro é essencial para manter a união e a força que nos define. </p> 
-   </section> 
-   <section id="contato"> 
-    <h2>Entre em Contato</h2> 
-    <form id="contactForm"> <label for="nome">Seu Nome</label> 
-     <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required> <label for="email">Seu Email</label> 
-     <input type="email" id="email" name="email" placeholder="Digite seu email" required> <button type="submit" class="cta-button">Enviar</button> 
-    </form> 
-   </section> 
-  </main> 
-  <footer> 
-   <p>© 2024 Família Canalhas. Todos os direitos reservados.</p> <a href="#">Política de Privacidade</a> • <a href="#">Termos de Uso</a> 
-  </footer> 
-  <script src="js/script.js"></script> <!-- Link para o JavaScript externo --> 
+<html lang="pt-BR">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O᥉ Cᥲᥒᥲᥣhᥲ᥉</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+ </head>
+ <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Os Canalhas 🏴‍☠️</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#essencia">Nossa Essência</a></li>
+          <li class="nav-item"><a class="nav-link" href="#historia">Nossa História</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main class="container mt-5">
+    <section id="inicio" class="text-center">
+      <h2 class="display-4">Bem-vindo à Família Canalhas</h2>
+      <p class="lead">Mais do que um grupo, somos uma verdadeira irmandade.</p>
+      <button id="joinDiscord" class="btn btn-primary btn-lg">Junte-se ao Discord</button>
+    </section>
+
+    <section id="essencia" class="mt-5">
+      <h2 class="text-center">Nossa Essência</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Os Canalhas são mais do que um grupo de amigos; somos uma família construída na base da irmandade. Respeito, amizade e proteção mútua são nossos pilares.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="imagem1.jpg" alt="Imagem representativa" class="img-fluid rounded">
+        </div>
+      </div>
+    </section>
+
+    <section id="historia" class="mt-5">
+      <h2 class="text-center">Nossa História</h2>
+      <p> Tudo começou com um carioca que, em busca de diversão, resolveu explorar o mundo do Discord...</p>
+      <p> Com o tempo, um sergipano entrou na jogada, trazendo novas ideias e muito entusiasmo...</p>
+    </section>
+
+    <section id="contato" class="mt-5">
+      <h2 class="text-center">Entre em Contato</h2>
+      <form id="contactForm" class="row g-3">
+        <div class="col-md-6">
+          <label for="nome" class="form-label">Seu Nome</label>
+          <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome" required>
+        </div>
+        <div class="col-md-6">
+          <label for="email" class="form-label">Seu Email</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu email" required>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>© 2024 Família Canalhas. Todos os direitos reservados.</p>
+    <a href="#" class="text-white text-decoration-none">Política de Privacidade</a> •
+    <a href="#" class="text-white text-decoration-none">Termos de Uso</a>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
  </body>
 </html>
