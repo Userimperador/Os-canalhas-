@@ -27,7 +27,7 @@ bot = MyBot()
 # Tarefa para repetir mensagem
 @tasks.loop(seconds=1)  # Repete a cada 5 segundos
 async def repetir_mensagem(channel: discord.TextChannel):
-    user_id = 677705088822804506  # ID do usuário a ser mencionado
+    user_id =   # ID do usuário a ser mencionado
     await channel.send(f"<@{user_id}>   auuuauaua!")
 
 # Comando para começar a repetição da mensagem
@@ -46,4 +46,4 @@ async def stop_repeating(interaction: discord.Interaction):
         await interaction.response.send_message("Não há repetição em andamento.")
 
 # Inicia o bot
-bot.run("MTIxNjk2MDkyOTU2MDkyNDE3MA.GIH4l9.LRnCTUhMkCqzdICu7Lxz2GXA1h5kiVy_TFDGlU")
+bot.run("")
